@@ -1,0 +1,243 @@
+HASIL WEB SCRAPING - RAW DATA
+============================================================
+
+Data Buku ke-1
+Judul        : A Light in the Attic
+Harga        : £51.77
+Rating       : 3
+Ketersediaan : In stock
+Kategori     : Poetry
+URL          : https://books.toscrape.com/catalogue/a-light-in-the-attic_1000/index.html
+------------------------------------------------------------
+Data Buku ke-2
+Judul        : Tipping the Velvet
+Harga        : £53.74
+Rating       : 1
+Ketersediaan : In stock
+Kategori     : Historical Fiction
+URL          : https://books.toscrape.com/catalogue/tipping-the-velvet_999/index.html
+------------------------------------------------------------
+Data Buku ke-3
+Judul        : Soumission
+Harga        : £50.10
+Rating       : 1
+Ketersediaan : In stock
+Kategori     : Fiction
+URL          : https://books.toscrape.com/catalogue/soumission_998/index.html
+------------------------------------------------------------
+Data Buku ke-4
+Judul        : Sharp Objects
+Harga        : £47.82
+Rating       : 4
+Ketersediaan : In stock
+Kategori     : Mystery
+URL          : https://books.toscrape.com/catalogue/sharp-objects_997/index.html
+------------------------------------------------------------
+Data Buku ke-5
+Judul        : Sapiens: A Brief History of Humankind
+Harga        : £54.23
+Rating       : 5
+Ketersediaan : In stock
+Kategori     : History
+URL          : https://books.toscrape.com/catalogue/sapiens-a-brief-history-of-humankind_996/index.html
+------------------------------------------------------------
+Data Buku ke-6
+Judul        : The Requiem Red
+Harga        : £22.65
+Rating       : 1
+Ketersediaan : In stock
+Kategori     : Young Adult
+URL          : https://books.toscrape.com/catalogue/the-requiem-red_995/index.html
+------------------------------------------------------------
+Data Buku ke-7
+Judul        : The Dirty Little Secrets of Getting Your Dream Job
+Harga        : £33.34
+Rating       : 4
+Ketersediaan : In stock
+Kategori     : Business
+URL          : https://books.toscrape.com/catalogue/the-dirty-little-secrets-of-getting-your-dream-job_994/index.html
+------------------------------------------------------------
+Data Buku ke-8
+Judul        : The Coming Woman: A Novel Based on the Life of the Infamous Feminist, Victoria Woodhull
+Harga        : £17.93
+Rating       : 3
+Ketersediaan : In stock
+Kategori     : Default
+URL          : https://books.toscrape.com/catalogue/the-coming-woman-a-novel-based-on-the-life-of-the-infamous-feminist-victoria-woodhull_993/index.html
+------------------------------------------------------------
+Data Buku ke-9
+Judul        : The Boys in the Boat: Nine Americans and Their Epic Quest for Gold at the 1936 Berlin Olympics
+Harga        : £22.60
+Rating       : 4
+Ketersediaan : In stock
+Kategori     : Default
+URL          : https://books.toscrape.com/catalogue/the-boys-in-the-boat-nine-americans-and-their-epic-quest-for-gold-at-the-1936-berlin-olympics_992/index.html
+------------------------------------------------------------
+Data Buku ke-10
+Judul        : The Black Maria
+Harga        : £52.15
+Rating       : 1
+Ketersediaan : In stock
+Kategori     : Poetry
+URL          : https://books.toscrape.com/catalogue/the-black-maria_991/index.html
+------------------------------------------------------------
+Data Buku ke-11
+Judul        : Starving Hearts (Triangular Trade Trilogy, #1)
+Harga        : £13.99
+Rating       : 2
+Ketersediaan : In stock
+Kategori     : Default
+URL          : https://books.toscrape.com/catalogue/starving-hearts-triangular-trade-trilogy-1_990/index.html
+------------------------------------------------------------
+Data Buku ke-12
+Judul        : Shakespeare's Sonnets
+Harga        : £20.66
+Rating       : 4
+Ketersediaan : In stock
+Kategori     : Poetry
+URL          : https://books.toscrape.com/catalogue/shakespeares-sonnets_989/index.html
+------------------------------------------------------------
+Data Buku ke-13
+Judul        : Set Me Free
+Harga        : £17.46
+Rating       : 5
+Ketersediaan : In stock
+Kategori     : Young Adult
+URL          : https://books.toscrape.com/catalogue/set-me-free_988/index.html
+------------------------------------------------------------
+Data Buku ke-14
+Judul        : Scott Pilgrim's Precious Little Life (Scott Pilgrim #1)
+Harga        : £52.29
+Rating       : 5
+Ketersediaan : In stock
+Kategori     : Sequential Art
+URL          : https://books.toscrape.com/catalogue/scott-pilgrims-precious-little-life-scott-pilgrim-1_987/index.html
+------------------------------------------------------------
+Data Buku ke-15
+Judul        : Rip it Up and Start Again
+Harga        : £35.02
+Rating       : 5
+Ketersediaan : In stock
+Kategori     : Music
+URL          : https://books.toscrape.com/catalogue/rip-it-up-and-start-again_986/index.html
+------------------------------------------------------------
+Data Buku ke-16
+Judul        : Our Band Could Be Your Life: Scenes from the American Indie Underground, 1981-1991
+Harga        : £57.25
+Rating       : 3
+Ketersediaan : In stock
+Kategori     : Music
+URL          : https://books.toscrape.com/catalogue/our-band-could-be-your-life-scenes-from-the-american-indie-underground-1981-1991_985/index.html
+------------------------------------------------------------
+Data Buku ke-17
+Judul        : Olio
+Harga        : £23.88
+Rating       : 1
+Ketersediaan : In stock
+Kategori     : Poetry
+URL          : https://books.toscrape.com/catalogue/olio_984/index.html
+------------------------------------------------------------
+Data Buku ke-18
+Judul        : Mesaerion: The Best Science Fiction Stories 1800-1849
+Harga        : £37.59
+Rating       : 1
+Ketersediaan : In stock
+Kategori     : Science Fiction
+URL          : https://books.toscrape.com/catalogue/mesaerion-the-best-science-fiction-stories-1800-1849_983/index.html
+------------------------------------------------------------
+Data Buku ke-19
+Judul        : Libertarianism for Beginners
+Harga        : £51.33
+Rating       : 2
+Ketersediaan : In stock
+Kategori     : Politics
+URL          : https://books.toscrape.com/catalogue/libertarianism-for-beginners_982/index.html
+------------------------------------------------------------
+Data Buku ke-20
+Judul        : It's Only the Himalayas
+Harga        : £45.17
+Rating       : 2
+Ketersediaan : In stock
+Kategori     : Travel
+URL          : https://books.toscrape.com/catalogue/its-only-the-himalayas_981/index.html
+------------------------------------------------------------
+Data Buku ke-21
+Judul        : In Her Wake
+Harga        : £12.84
+Rating       : 1
+Ketersediaan : In stock
+Kategori     : Thriller
+URL          : https://books.toscrape.com/catalogue/in-her-wake_980/index.html
+------------------------------------------------------------
+Data Buku ke-22
+Judul        : How Music Works
+Harga        : £37.32
+Rating       : 2
+Ketersediaan : In stock
+Kategori     : Music
+URL          : https://books.toscrape.com/catalogue/how-music-works_979/index.html
+------------------------------------------------------------
+Data Buku ke-23
+Judul        : Foolproof Preserving: A Guide to Small Batch Jams, Jellies, Pickles, Condiments, and More: A Foolproof Guide to Making Small Batch Jams, Jellies, Pickles, Condiments, and More
+Harga        : £30.52
+Rating       : 3
+Ketersediaan : In stock
+Kategori     : Food and Drink
+URL          : https://books.toscrape.com/catalogue/foolproof-preserving-a-guide-to-small-batch-jams-jellies-pickles-condiments-and-more-a-foolproof-guide-to-making-small-batch-jams-jellies-pickles-condiments-and-more_978/index.html
+------------------------------------------------------------
+Data Buku ke-24
+Judul        : Chase Me (Paris Nights #2)
+Harga        : £25.27
+Rating       : 5
+Ketersediaan : In stock
+Kategori     : Romance
+URL          : https://books.toscrape.com/catalogue/chase-me-paris-nights-2_977/index.html
+------------------------------------------------------------
+Data Buku ke-25
+Judul        : Black Dust
+Harga        : £34.53
+Rating       : 5
+Ketersediaan : In stock
+Kategori     : Romance
+URL          : https://books.toscrape.com/catalogue/black-dust_976/index.html
+------------------------------------------------------------
+Data Buku ke-26
+Judul        : Birdsong: A Story in Pictures
+Harga        : £54.64
+Rating       : 3
+Ketersediaan : In stock
+Kategori     : Childrens
+URL          : https://books.toscrape.com/catalogue/birdsong-a-story-in-pictures_975/index.html
+------------------------------------------------------------
+Data Buku ke-27
+Judul        : America's Cradle of Quarterbacks: Western Pennsylvania's Football Factory from Johnny Unitas to Joe Montana
+Harga        : £22.50
+Rating       : 3
+Ketersediaan : In stock
+Kategori     : Default
+URL          : https://books.toscrape.com/catalogue/americas-cradle-of-quarterbacks-western-pennsylvanias-football-factory-from-johnny-unitas-to-joe-montana_974/index.html
+------------------------------------------------------------
+Data Buku ke-28
+Judul        : Aladdin and His Wonderful Lamp
+Harga        : £53.13
+Rating       : 3
+Ketersediaan : In stock
+Kategori     : Default
+URL          : https://books.toscrape.com/catalogue/aladdin-and-his-wonderful-lamp_973/index.html
+------------------------------------------------------------
+Data Buku ke-29
+Judul        : Worlds Elsewhere: Journeys Around Shakespeareâs Globe
+Harga        : £40.30
+Rating       : 5
+Ketersediaan : In stock
+Kategori     : Nonfiction
+URL          : https://books.toscrape.com/catalogue/worlds-elsewhere-journeys-around-shakespeares-globe_972/index.html
+------------------------------------------------------------
+Data Buku ke-30
+Judul        : Wall and Piece
+Harga        : £44.18
+Rating       : 4
+Ketersediaan : In stock
+Kategori     : Art
+URL          : https://books.toscrape.com/catalogue/wall-and-piece_971/index.html
+------------------------------------------------------------

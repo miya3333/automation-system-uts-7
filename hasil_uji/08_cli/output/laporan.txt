@@ -1,0 +1,14 @@
+LAPORAN HASIL WEB SCRAPING
+=============================================
+
+Website          : https://books.toscrape.com/
+Jumlah buku      : 1
+Jumlah halaman   : 1
+Keyword          : Attic
+
+JUMLAH BUKU BERDASARKAN KATEGORI
+---------------------------------------------
+Poetry: 1 buku
+
+Catatan:
+Data diperoleh melalui proses web scraping pada website Books to Scrape.

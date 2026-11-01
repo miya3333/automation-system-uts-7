@@ -1,0 +1,11 @@
+HASIL WEB SCRAPING - RAW DATA
+============================================================
+
+Data Buku ke-1
+Judul        : A Light in the Attic
+Harga        : £51.77
+Rating       : 3
+Ketersediaan : In stock
+Kategori     : Poetry
+URL          : https://books.toscrape.com/catalogue/a-light-in-the-attic_1000/index.html
+------------------------------------------------------------

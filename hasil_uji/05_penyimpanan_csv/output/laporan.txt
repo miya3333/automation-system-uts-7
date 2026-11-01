@@ -1,0 +1,23 @@
+LAPORAN HASIL WEB SCRAPING
+=============================================
+
+Website          : https://books.toscrape.com/
+Jumlah buku      : 15
+Jumlah halaman   : 1
+Keyword          : -
+
+JUMLAH BUKU BERDASARKAN KATEGORI
+---------------------------------------------
+Poetry: 3 buku
+Default: 3 buku
+Young Adult: 2 buku
+Historical Fiction: 1 buku
+Fiction: 1 buku
+Mystery: 1 buku
+History: 1 buku
+Business: 1 buku
+Sequential Art: 1 buku
+Music: 1 buku
+
+Catatan:
+Data diperoleh melalui proses web scraping pada website Books to Scrape.

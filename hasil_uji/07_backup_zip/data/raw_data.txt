@@ -1,0 +1,83 @@
+HASIL WEB SCRAPING - RAW DATA
+============================================================
+
+Data Buku ke-1
+Judul        : A Light in the Attic
+Harga        : £51.77
+Rating       : 3
+Ketersediaan : In stock
+Kategori     : Poetry
+URL          : https://books.toscrape.com/catalogue/a-light-in-the-attic_1000/index.html
+------------------------------------------------------------
+Data Buku ke-2
+Judul        : Tipping the Velvet
+Harga        : £53.74
+Rating       : 1
+Ketersediaan : In stock
+Kategori     : Historical Fiction
+URL          : https://books.toscrape.com/catalogue/tipping-the-velvet_999/index.html
+------------------------------------------------------------
+Data Buku ke-3
+Judul        : Soumission
+Harga        : £50.10
+Rating       : 1
+Ketersediaan : In stock
+Kategori     : Fiction
+URL          : https://books.toscrape.com/catalogue/soumission_998/index.html
+------------------------------------------------------------
+Data Buku ke-4
+Judul        : Sharp Objects
+Harga        : £47.82
+Rating       : 4
+Ketersediaan : In stock
+Kategori     : Mystery
+URL          : https://books.toscrape.com/catalogue/sharp-objects_997/index.html
+------------------------------------------------------------
+Data Buku ke-5
+Judul        : Sapiens: A Brief History of Humankind
+Harga        : £54.23
+Rating       : 5
+Ketersediaan : In stock
+Kategori     : History
+URL          : https://books.toscrape.com/catalogue/sapiens-a-brief-history-of-humankind_996/index.html
+------------------------------------------------------------
+Data Buku ke-6
+Judul        : The Requiem Red
+Harga        : £22.65
+Rating       : 1
+Ketersediaan : In stock
+Kategori     : Young Adult
+URL          : https://books.toscrape.com/catalogue/the-requiem-red_995/index.html
+------------------------------------------------------------
+Data Buku ke-7
+Judul        : The Dirty Little Secrets of Getting Your Dream Job
+Harga        : £33.34
+Rating       : 4
+Ketersediaan : In stock
+Kategori     : Business
+URL          : https://books.toscrape.com/catalogue/the-dirty-little-secrets-of-getting-your-dream-job_994/index.html
+------------------------------------------------------------
+Data Buku ke-8
+Judul        : The Coming Woman: A Novel Based on the Life of the Infamous Feminist, Victoria Woodhull
+Harga        : £17.93
+Rating       : 3
+Ketersediaan : In stock
+Kategori     : Default
+URL          : https://books.toscrape.com/catalogue/the-coming-woman-a-novel-based-on-the-life-of-the-infamous-feminist-victoria-woodhull_993/index.html
+------------------------------------------------------------
+Data Buku ke-9
+Judul        : The Boys in the Boat: Nine Americans and Their Epic Quest for Gold at the 1936 Berlin Olympics
+Harga        : £22.60
+Rating       : 4
+Ketersediaan : In stock
+Kategori     : Default
+URL          : https://books.toscrape.com/catalogue/the-boys-in-the-boat-nine-americans-and-their-epic-quest-for-gold-at-the-1936-berlin-olympics_992/index.html
+------------------------------------------------------------
+Data Buku ke-10
+Judul        : The Black Maria
+Harga        : £52.15
+Rating       : 1
+Ketersediaan : In stock
+Kategori     : Poetry
+URL          : https://books.toscrape.com/catalogue/the-black-maria_991/index.html
+------------------------------------------------------------
