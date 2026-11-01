@@ -33,14 +33,14 @@ Program menggunakan teknik **web scraping** untuk mengambil informasi buku dari 
 
 Informasi yang dikumpulkan meliputi:
 
-| Data | Keterangan |
-|---|---|
-| Judul | Nama atau judul buku |
-| Harga | Harga buku dalam format numerik |
-| Rating | Nilai rating buku |
-| Ketersediaan | Informasi stok atau ketersediaan buku |
-| Kategori | Kategori buku yang diperoleh dari halaman detail |
-| URL | Alamat halaman detail buku |
+| Data         | Keterangan                                       |
+| ------------ | ------------------------------------------------ |
+| Judul        | Nama atau judul buku                             |
+| Harga        | Harga buku dalam format numerik                  |
+| Rating       | Nilai rating buku                                |
+| Ketersediaan | Informasi stok atau ketersediaan buku            |
+| Kategori     | Kategori buku yang diperoleh dari halaman detail |
+| URL          | Alamat halaman detail buku                       |
 
 Program dirancang agar hasil dari setiap eksekusi dapat disimpan pada direktori yang berbeda. Dengan demikian, hasil pengujian atau pengambilan data sebelumnya tidak tercampur dengan hasil eksekusi berikutnya selama menggunakan nama direktori keluaran yang berbeda.
 
@@ -59,17 +59,17 @@ Program ini dibuat untuk menerapkan beberapa materi pemrograman, khususnya:
 
 ## Teknologi dan Library
 
-| Teknologi / Library | Kegunaan |
-|---|---|
-| Python | Bahasa pemrograman utama |
-| Requests | Mengirim HTTP request ke website |
-| BeautifulSoup | Mem-parsing HTML dan mengambil elemen data buku |
-| Regular Expression (`re`) | Membersihkan teks dan memvalidasi format harga |
-| CSV | Menyimpan data buku dalam format terstruktur |
-| `pathlib` | Mengelola lokasi file dan direktori |
-| `zipfile` | Membuat arsip ZIP untuk backup |
-| `argparse` | Membaca argumen dari command line |
-| `collections.Counter` | Menghitung jumlah buku berdasarkan kategori |
+| Teknologi / Library       | Kegunaan                                        |
+| ------------------------- | ----------------------------------------------- |
+| Python                    | Bahasa pemrograman utama                        |
+| Requests                  | Mengirim HTTP request ke website                |
+| BeautifulSoup             | Mem-parsing HTML dan mengambil elemen data buku |
+| Regular Expression (`re`) | Membersihkan teks dan memvalidasi format harga  |
+| CSV                       | Menyimpan data buku dalam format terstruktur    |
+| `pathlib`                 | Mengelola lokasi file dan direktori             |
+| `zipfile`                 | Membuat arsip ZIP untuk backup                  |
+| `argparse`                | Membaca argumen dari command line               |
+| `collections.Counter`     | Menghitung jumlah buku berdasarkan kategori     |
 
 Library `re`, `csv`, `pathlib`, `zipfile`, `argparse`, dan `collections` merupakan bagian dari standard library Python. Library eksternal yang perlu dipasang melalui `requirements.txt` adalah `requests` dan `beautifulsoup4`.
 
@@ -242,13 +242,13 @@ python main.py --help
 
 ## Argumen Command Line Interface
 
-| Argumen | Fungsi | Contoh |
-|---|---|---|
-| `--url` | Menentukan URL awal katalog yang akan diambil datanya. | `--url "https://books.toscrape.com/"` |
-| `--keyword` | Memfilter buku berdasarkan keyword yang cocok dengan judul atau kategori. | `--keyword "Attic"` |
-| `--limit` | Menentukan jumlah maksimum buku yang ingin diambil. | `--limit 30` |
-| `--run-dir` | Menentukan direktori untuk menyimpan hasil satu eksekusi. | `--run-dir hasil_uji/01_pengambilan_data` |
-| `--backup` | Mengaktifkan pembuatan arsip ZIP. | `--backup` |
+| Argumen     | Fungsi                                                                    | Contoh                                    |
+| ----------- | ------------------------------------------------------------------------- | ----------------------------------------- |
+| `--url`     | Menentukan URL awal katalog yang akan diambil datanya.                    | `--url "https://books.toscrape.com/"`     |
+| `--keyword` | Memfilter buku berdasarkan keyword yang cocok dengan judul atau kategori. | `--keyword "Attic"`                       |
+| `--limit`   | Menentukan jumlah maksimum buku yang ingin diambil.                       | `--limit 30`                              |
+| `--run-dir` | Menentukan direktori untuk menyimpan hasil satu eksekusi.                 | `--run-dir hasil_uji/01_pengambilan_data` |
+| `--backup`  | Mengaktifkan pembuatan arsip ZIP.                                         | `--backup`                                |
 
 ### Nilai Default
 
@@ -384,17 +384,17 @@ backup/backup_data.zip
 
 Pengujian program dibagi menjadi sembilan skenario:
 
-| No. | Pengujian | Tujuan |
-|---:|---|---|
-| 1 | Pengambilan data | Memastikan program dapat mengambil 30 data buku |
-| 2 | Pagination | Memastikan program dapat melanjutkan pengambilan data ke halaman berikutnya |
-| 3 | Regex | Memeriksa pembersihan teks dan validasi format harga |
-| 4 | Penyimpanan TXT | Memastikan data dapat disimpan ke `raw_data.txt` |
-| 5 | Penyimpanan CSV | Memastikan data dapat disimpan ke `hasil_scraping.csv` |
-| 6 | Pembuatan folder otomatis | Memastikan direktori keluaran dibuat secara otomatis |
-| 7 | Backup ZIP | Memastikan arsip ZIP dapat dibuat ketika opsi backup diaktifkan |
-| 8 | Command Line Interface | Memeriksa daftar argumen dan pencarian berdasarkan keyword |
-| 9 | Error handling | Memeriksa penanganan limit tidak valid dan kegagalan koneksi |
+| No. | Pengujian                 | Tujuan                                                                      |
+| --: | ------------------------- | --------------------------------------------------------------------------- |
+|   1 | Pengambilan data          | Memastikan program dapat mengambil 30 data buku                             |
+|   2 | Pagination                | Memastikan program dapat melanjutkan pengambilan data ke halaman berikutnya |
+|   3 | Regex                     | Memeriksa pembersihan teks dan validasi format harga                        |
+|   4 | Penyimpanan TXT           | Memastikan data dapat disimpan ke `raw_data.txt`                            |
+|   5 | Penyimpanan CSV           | Memastikan data dapat disimpan ke `hasil_scraping.csv`                      |
+|   6 | Pembuatan folder otomatis | Memastikan direktori keluaran dibuat secara otomatis                        |
+|   7 | Backup ZIP                | Memastikan arsip ZIP dapat dibuat ketika opsi backup diaktifkan             |
+|   8 | Command Line Interface    | Memeriksa daftar argumen dan pencarian berdasarkan keyword                  |
+|   9 | Error handling            | Memeriksa penanganan limit tidak valid dan kegagalan koneksi                |
 
 ### Perintah Pengujian
 
@@ -441,12 +441,12 @@ Pengujian Regex pada langkah ketiga menampilkan hasil langsung pada terminal. Ka
 
 Program memiliki penanganan untuk beberapa kondisi berikut:
 
-| Kondisi | Respons yang diharapkan |
-|---|---|
-| Nilai `--limit` adalah `0` atau kurang | Program menolak argumen dan menampilkan pesan bahwa limit harus lebih besar dari 0 |
-| Website tidak dapat diakses | Kesalahan permintaan ditangani dan pesan kesalahan ditampilkan |
-| Terjadi kesalahan saat membaca atau menulis file | Kesalahan operasi file ditangani dan ditampilkan |
-| Terjadi kesalahan terkait CSV atau ZIP | Program menangani kesalahan sesuai jenis operasi yang sedang dilakukan |
+| Kondisi                                          | Respons yang diharapkan                                                            |
+| ------------------------------------------------ | ---------------------------------------------------------------------------------- |
+| Nilai `--limit` adalah `0` atau kurang           | Program menolak argumen dan menampilkan pesan bahwa limit harus lebih besar dari 0 |
+| Website tidak dapat diakses                      | Kesalahan permintaan ditangani dan pesan kesalahan ditampilkan                     |
+| Terjadi kesalahan saat membaca atau menulis file | Kesalahan operasi file ditangani dan ditampilkan                                   |
+| Terjadi kesalahan terkait CSV atau ZIP           | Program menangani kesalahan sesuai jenis operasi yang sedang dilakukan             |
 
 Untuk pengujian error handling, gunakan URL yang memang tidak valid atau tidak dapat diakses. Jangan menggunakan alamat tersebut sebagai URL sumber untuk pengambilan data normal.
 
@@ -456,20 +456,20 @@ Untuk pengujian error handling, gunakan URL yang memang tidak valid atau tidak d
 
 Screenshot hasil pengujian disimpan pada folder `dokumentasi/` di direktori utama proyek.
 
-| No. | Nama Dokumentasi |
-|---:|---|
-| 1 | Instalasi dependency |
-| 2 | Pengujian 1 — Pengambilan data (30 buku) |
-| 3 | Pengujian 2 — Pagination (30 buku) |
-| 4 | Pengujian 3 — Regex |
-| 5 | Pengujian 4 — Penyimpanan TXT |
-| 6 | Pengujian 5 — Penyimpanan CSV |
-| 7 | Pengujian 6 — Pembuatan folder otomatis |
-| 8 | Pengujian 7 — Backup ZIP |
-| 9 | Pengujian 8 — Command Line Interface |
-| 10 | Pengujian 9 — Error handling |
+| No. | Nama Dokumentasi                         |
+| --: | ---------------------------------------- |
+|   1 | Instalasi dependency                     |
+|   2 | Pengujian 1 — Pengambilan data (30 buku) |
+|   3 | Pengujian 2 — Pagination (30 buku)       |
+|   4 | Pengujian 3 — Regex                      |
+|   5 | Pengujian 4 — Penyimpanan TXT            |
+|   6 | Pengujian 5 — Penyimpanan CSV            |
+|   7 | Pengujian 6 — Pembuatan folder otomatis  |
+|   8 | Pengujian 7 — Backup ZIP                 |
+|   9 | Pengujian 8 — Command Line Interface     |
+|  10 | Pengujian 9 — Error handling             |
 
-Laporan pengujian yang menampilkan screenshot secara langsung tersedia pada file `Laporan_Pengujian_Program.md`.
+Laporan pengujian yang menampilkan screenshot secara langsung tersedia pada file [Laporan_Pengujuan_Program.md](Laporan_Pengujian_Program.md).
 
 ---
 
